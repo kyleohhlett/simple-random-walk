@@ -4,10 +4,10 @@ from random import choice
 
 random.seed()
 
-for i in range(1, 100):
+for i in range(1, 50):
     x = []
     y = []
-    for j in range(0, 1000000):
+    for j in range(0, 100000):
         last_y = 0
         if j > 1:
             last_y = y[j-1]
